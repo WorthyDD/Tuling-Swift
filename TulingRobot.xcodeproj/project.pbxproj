@@ -18,6 +18,7 @@
 		CCD5884B20DF7BBD0041E972 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5884A20DF7BBD0041E972 /* APIManager.swift */; };
 		CCD5885020DF9E3A0041E972 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5884E20DF9E3A0041E972 /* MessageCell.swift */; };
 		CCD5885120DF9E3A0041E972 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD5884F20DF9E3A0041E972 /* MessageCell.xib */; };
+		CCD5885320DFAF6C0041E972 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5885220DFAF6C0041E972 /* NewsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CCD5884A20DF7BBD0041E972 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		CCD5884E20DF9E3A0041E972 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		CCD5884F20DF9E3A0041E972 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		CCD5885220DFAF6C0041E972 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		D3E5AB15599934ADB27B2D75 /* Pods_TulingRobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TulingRobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 			children = (
 				CCD5884820DF78780041E972 /* MessageModel.swift */,
 				CCD5884A20DF7BBD0041E972 /* APIManager.swift */,
+				CCD5885220DFAF6C0041E972 /* NewsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD5885320DFAF6C0041E972 /* NewsModel.swift in Sources */,
 				CCD5884620DF754D0041E972 /* NewsListController.swift in Sources */,
 				CCD5882E20DF74C30041E972 /* AppDelegate.swift in Sources */,
 				CCD5884B20DF7BBD0041E972 /* APIManager.swift in Sources */,
