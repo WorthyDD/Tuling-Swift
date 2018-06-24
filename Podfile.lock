@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.7.2)
+  - HandyJSON (4.0.0-beta.1)
+  - ImagePicker (3.0.0)
+  - IQKeyboardManagerSwift (5.0.0)
+  - MJRefresh (3.1.15.3)
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
+  - SnapKit (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON (~> 4.0.0-beta.1)
+  - ImagePicker
+  - IQKeyboardManagerSwift (= 5.0.0)
+  - MJRefresh
+  - SDWebImage
+  - SnapKit (~> 4.0)
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - ImagePicker
+    - IQKeyboardManagerSwift
+    - MJRefresh
+    - SDWebImage
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
+  ImagePicker: 973953c25960fe04729a7082a56194321c6762d2
+  IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: df3e011554020e0bcf213a5780ebcdcf86f26c83
+
+COCOAPODS: 1.5.0
