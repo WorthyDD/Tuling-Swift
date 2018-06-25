@@ -8,7 +8,7 @@ target 'TulingRobot' do
   # Pods for TulingRobot
    pod ‘Alamofire'
    pod 'SwiftyJSON'
-   pod 'HandyJSON', '~> 4.0.0-beta.1'
+   pod 'HandyJSON', '~> 4.1.1'
    pod 'SnapKit', '~> 4.0'
    pod 'IQKeyboardManagerSwift', '5.0.0'
    pod 'ImagePicker'

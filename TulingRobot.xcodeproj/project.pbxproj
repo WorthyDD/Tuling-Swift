@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		78AFDEA8D3D8B023CE72C296 /* Pods_TulingRobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E5AB15599934ADB27B2D75 /* Pods_TulingRobot.framework */; };
+		CCC94C0220E0A3C6001D1920 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC94C0020E0A3C6001D1920 /* NewsCell.swift */; };
+		CCC94C0320E0A3C6001D1920 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC94C0120E0A3C6001D1920 /* NewsCell.xib */; };
+		CCC94C0620E0AB36001D1920 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC94C0520E0AB36001D1920 /* WebViewController.swift */; };
 		CCD5882E20DF74C30041E972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5882D20DF74C30041E972 /* AppDelegate.swift */; };
 		CCD5883520DF74C30041E972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD5883320DF74C30041E972 /* Main.storyboard */; };
 		CCD5883720DF74C60041E972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD5883620DF74C60041E972 /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 /* Begin PBXFileReference section */
 		37DFD3DCBA59E73A79353060 /* Pods-TulingRobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TulingRobot.release.xcconfig"; path = "Pods/Target Support Files/Pods-TulingRobot/Pods-TulingRobot.release.xcconfig"; sourceTree = "<group>"; };
 		5714C092CAF59D77D8A4871F /* Pods-TulingRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TulingRobot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TulingRobot/Pods-TulingRobot.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC94C0020E0A3C6001D1920 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		CCC94C0120E0A3C6001D1920 /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		CCC94C0520E0AB36001D1920 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CCD5882A20DF74C30041E972 /* TulingRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TulingRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD5882D20DF74C30041E972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCD5883420DF74C30041E972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 			children = (
 				CCD5884220DF752A0041E972 /* ChatController.swift */,
 				CCD5884520DF754D0041E972 /* NewsListController.swift */,
+				CCC94C0520E0AB36001D1920 /* WebViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -134,6 +141,8 @@
 			children = (
 				CCD5884E20DF9E3A0041E972 /* MessageCell.swift */,
 				CCD5884F20DF9E3A0041E972 /* MessageCell.xib */,
+				CCC94C0020E0A3C6001D1920 /* NewsCell.swift */,
+				CCC94C0120E0A3C6001D1920 /* NewsCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +209,7 @@
 			files = (
 				CCD5883A20DF74C60041E972 /* LaunchScreen.storyboard in Resources */,
 				CCD5885120DF9E3A0041E972 /* MessageCell.xib in Resources */,
+				CCC94C0320E0A3C6001D1920 /* NewsCell.xib in Resources */,
 				CCD5883720DF74C60041E972 /* Assets.xcassets in Resources */,
 				CCD5883520DF74C30041E972 /* Main.storyboard in Resources */,
 			);
@@ -268,11 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD5885320DFAF6C0041E972 /* NewsModel.swift in Sources */,
+				CCC94C0620E0AB36001D1920 /* WebViewController.swift in Sources */,
 				CCD5884620DF754D0041E972 /* NewsListController.swift in Sources */,
 				CCD5882E20DF74C30041E972 /* AppDelegate.swift in Sources */,
 				CCD5884B20DF7BBD0041E972 /* APIManager.swift in Sources */,
 				CCD5884320DF752A0041E972 /* ChatController.swift in Sources */,
 				CCD5884920DF78780041E972 /* MessageModel.swift in Sources */,
+				CCC94C0220E0A3C6001D1920 /* NewsCell.swift in Sources */,
 				CCD5885020DF9E3A0041E972 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
