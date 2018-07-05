@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TulingRobot
 //
-//  Created by wuxi on 2018/6/24.
+//  Created by me on 2018/6/24.
 //  Copyright © 2018年 demo. All rights reserved.
 //
 
